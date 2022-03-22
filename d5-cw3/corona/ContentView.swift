@@ -12,6 +12,7 @@ import SwiftUI
 
 
 struct ContentView: View {
+    
     var body: some View {
         ZStack{
             Color.gray
@@ -28,33 +29,34 @@ struct ContentView: View {
                 VStack{
         // الحالة الأولى
                 // الاسم
-               Text("")
+                    Text("\(pepole[0].fullName)")
 // المنطقة
-                Text("")
+                    Text("\(pepole[0].area)")
                     // عدد الجرعات
-               Text("")
+               Text("\(pepole[0].numOfDoses)")
 
                 Divider()
                 }
                 VStack{
         // الحالة الثانية
                 // الاسم
-               Text("")
+               Text("\(pepole[1].fullName)")
                 // المنطقة
-               Text("")
+               Text("\(pepole[1].area)")
     // عدد الجرعات
-               Text("")
+               Text("\(pepole[1].numOfDoses)")
 
                 Divider()
                 }
                 VStack{
               // الحالة الثالثة
                       // الاسم
-                     Text("")
-                      // المنطقة
-                     Text("")
-          // عدد الجرعات
-                     Text("")
+                    Text("\(pepole[2].fullName)")
+                     // المنطقة
+                    Text("\(pepole[2].area)")
+         // عدد الجرعات
+                    Text("\(pepole[2].numOfDoses)")
+
                 }
                 Spacer()
                 HStack{
